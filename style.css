@@ -7,11 +7,13 @@
     padding: 50px 0;
 }
 
-/* .container-layout{
- position: fixed;
+.container-layout{
+ 
  width: 100%;
- z-index: 1000;
-}*/
+ height: 100%;
+ display: block;
+}
+
 
 /*ESTILIZAÇÃO HEADER PAI E FILHOS*/
 header{
@@ -29,6 +31,9 @@ header p{
 }
 
 header ul{
+    max-width: 900px;
+    width: 100%;
+    gap: 20px;
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -53,12 +58,16 @@ header li a:hover{
 /*ESTILIZAÇÃO Section-1 - Home*/
 .container{
     display: flex;
+    justify-content: center;
 }
 .container-button{
     padding-top: 20px;
     margin: 0 auto;
     width: 100%;
     text-align: center;
+}
+.container-button a{
+    margin-top: 20px;
 }
 .container-technology{
     display: flex;
@@ -105,11 +114,17 @@ header li a:hover{
 
 .container-projects{
     text-align: center;
-    max-width: 800px;
+    max-width: 900px;
     display: grid;
     text-align: center;
     margin: 0 auto;
     margin-top: -6px;
+}
+.container-my-projects-inter{
+    background-color: #CEDADA;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 .container-projects h2{
     font-weight: 100;
@@ -171,6 +186,7 @@ textarea{
 }
 
 .home{
+max-width: 900px;
  display: flex;
  flex-wrap: wrap-reverse;
  padding-top: 60px;

@@ -13,16 +13,18 @@
 
     <!--Header-->
         <header class="container-layout">
-            <nav>
-                <p id="section-header" style="font-weight: bold; color: #898952;">Rafael Castilho</p>
-                <ul>
-                    <li><a href="#section-about">Sobre Mim</a></li> <!---->
-                    <li><a href="#section-training">Formação</a></li>
-                    <li><a href="#my-skills">Habilidades</a></li> <!---->
-                    <li><a href="#my-projects">Projetos</a></li> <!---->
-                    <li><a href="#contact">Contatos</a></li> <!---->
-                </ul>
-            </nav> 
+            <p id="section-header" style="font-weight: bold; color: #898952;">Rafael Castilho</p>
+            <div class="container">    
+                <nav>
+                    <ul>
+                        <li><a href="#section-about">Sobre Mim</a></li> <!---->
+                        <li><a href="#section-training">Formação</a></li>
+                        <li><a href="#my-skills">Habilidades</a></li> <!---->
+                        <li><a href="#my-projects">Projetos</a></li> <!---->
+                        <li><a href="#contact">Contatos</a></li> <!---->
+                    </ul>
+                </nav> 
+            </div>
         </header>
 
         <!--Sessão de Formação e Cursos-->
@@ -46,14 +48,17 @@
                 </div>
             </div>
             <!--Tecnologias Dominadas-->
-            <div class="container-technology">
-                <p>Principais Tecnologias | </p>
-                <img src="asset/image/icon/html.svg" class="icon">
-                <img src="asset/image/icon/css.svg" class="icon">
-                <img src="asset/image/icon/javascript.svg" class="icon">
-                <img src="asset/image/icon/angular.svg" class="icon">
-                <img src="asset/image/icon/gitlab.svg" class="icon">
+            <div class="container">    
+                <div class="container-technology">
+                    <p>Principais Tecnologias | </p>
+                    <img src="asset/image/icon/html.svg" class="icon">
+                    <img src="asset/image/icon/css.svg" class="icon">
+                    <img src="asset/image/icon/javascript.svg" class="icon">
+                    <img src="asset/image/icon/angular.svg" class="icon">
+                    <img src="asset/image/icon/gitlab.svg" class="icon">
+                </div>
             </div>
+
         </section>
 
         <!--Sessão Spbre Mim-->
@@ -126,7 +131,7 @@
             <div>
                 <img src="asset/image/icon/border-projects.svg" alt="borda-ondular">
             </div>
-            <div style="background-color: #cedada; height: 360px;">
+            <div class="container-my-projects-inter">
                 <div class="container-projects">
                     <div class="cards-projects">
                         <div class="">
@@ -137,17 +142,19 @@
                                 O projeto consiste em um jogo interativo chamado <span class="text-color">"Guess the Number" (Adivinhe o Número)</span>, 
                                 onde os jogadores são desafiados a acertar o número secreto gerado aleatoriamente entre <span class="text-color">0 e 10</span>.
                             </p>
-                            <a href="https://gregarious-peony-4676f0.netlify.app/" class="button-repository"> <!---->
+                            <div class="container-button">
+                                <a href="https://gregarious-peony-4676f0.netlify.app/" class="button-repository"> <!---->
                                 <img src="asset/image/icon/vetor-to_view.svg" alt="" class="icon" style="gap: 50px;">Visualizar</a></button>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!--Sessão de Contatos-->
         <section id="contact">
-            <div class="container-about" style="margin-top: 100px;">
+            <div class="container-about">
                 <h2>Contatos</h2>
             </div>
             <!--Formulário para Contato POST E-mail-->
