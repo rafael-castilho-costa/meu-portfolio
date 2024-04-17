@@ -39,7 +39,6 @@ header p{
 }
 
 .box ul{
-    max-width: 900px;
     width: 100%;
     gap: 20px;
     display: flex;
