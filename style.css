@@ -198,7 +198,7 @@ textarea{
 }
 
 .home{
-max-width: 900px;
+
  display: flex;
  flex-wrap: wrap-reverse;
  padding-top: 60px;
