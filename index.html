@@ -12,24 +12,24 @@
 <body>
 
     <!--Header-->
-        <header class="container-layout">
+        <header class="section">
             <p id="section-header" style="font-weight: bold; color: #898952;">Rafael Castilho</p>
-            <div class="container">    
+            <div class="box">    
                 <nav>
                     <ul>
-                        <li><a href="#section-about">Sobre Mim</a></li> <!---->
-                        <li><a href="#section-training">Formação</a></li>
-                        <li><a href="#my-skills">Habilidades</a></li> <!---->
-                        <li><a href="#my-projects">Projetos</a></li> <!---->
-                        <li><a href="#contact">Contatos</a></li> <!---->
+                        <a href="#section-about">Sobre Mim</a> <!---->
+                        <a href="#section-training">Formação</a>
+                        <a href="#my-skills">Habilidades</a> <!---->
+                        <a href="#my-projects">Projetos</a> <!---->
+                        <a href="#contact">Contatos</a> <!---->
                     </ul>
                 </nav> 
             </div>
         </header>
 
         <!--Sessão de Formação e Cursos-->
-        <section id="section-training">
-            <div class="container">
+        <section id="section-training" class="section">
+            <div class="box">
                 <div class="home">
                     <div class="text">
                         <h2 class="title">Formação</h2>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <!--Tecnologias Dominadas-->
-            <div class="container">    
+            <div class="box">    
                 <div class="container-technology">
                     <p>Principais Tecnologias | </p>
                     <img src="asset/image/icon/html.svg" class="icon">
@@ -62,89 +62,103 @@
         </section>
 
         <!--Sessão Spbre Mim-->
-        <section id="section-about" class="container-layout">
-            <div>
-                <img src="asset/image/icon/border-about.svg">
-            </div>
-            <div class="container-about-pai">
-                <div class="container-about">
-                    <h2>Sobre Mim</h2>
-                    <p>
-                        Sou estudante graduando em <span class="text-color">Análise e Desenvolvimento de Sistemas</span> pela Faculdade do Paraná Uninter.
-                         Resido atualmente na cidade de Senador Canedo, no estado de Goiás.
-                         Tenho conhecimento em várias tecnologias voltadas para <span class="text-color">Backend e Frontend</span>.
-                         As tecnologias em que mais me destaco são <span class="text-color">HTML, CSS, JavaScript, TypeScript, Angular e versionamento com a ferramenta GitLab</span>.
-                         Venho me qualificando para que em breve possa me tornar um Desenvolvedor Full Stack, aplicando assim todos os meus conhecimentos em Frontend e Backend.</p>
+        <section id="section-about" class="section">
+            <img src="asset/image/icon/border-about.svg">
+            <div style="background-color: #cedada;">
+                <div class="box">
+                    <div class="container-about">
+                        <h2>Sobre Mim</h2>
+                        <p>
+                            Sou estudante graduando em <span class="text-color">Análise e Desenvolvimento de Sistemas</span> pela Faculdade do Paraná Uninter.
+                            Resido atualmente na cidade de Senador Canedo, no estado de Goiás.
+                            Tenho conhecimento em várias tecnologias voltadas para <span class="text-color">Backend e Frontend</span>.
+                            As tecnologias em que mais me destaco são <span class="text-color">HTML, CSS, JavaScript, TypeScript, Angular e versionamento com a ferramenta GitLab</span>.
+                            Venho me qualificando para que em breve possa me tornar um Desenvolvedor Full Stack, aplicando assim todos os meus conhecimentos em Frontend e Backend.</p>
+                    </div>
+                <div>
                 </div>
-            </div>
-            <div>
             </div>
         </section>
 
         <!--Sessão de Minhas Habilidades-->
-        <section id="my-skills">
-            <div class="container-about" style="margin-top: 100px;">
-                <h2>Minhas Habilidades</h2>
-            </div>
-            <div class="container-my-skills">
-                <div class="icon-decoration">
-                    <img src="asset/image/icon/my-skills-frontend.svg" class="icon">
+        <section id="my-skills" class="section">
+            <div class="box">
+                <div class="container-about">
+                    <h2>Minhas Habilidades</h2>
                 </div>
+                <div class="container-my-skills">
+                    <div class="icon-decoration">
+                        <img src="asset/image/icon/my-skills-frontend.svg" class="icon">
+                    </div>
 
-                <div class="icon-decoration">
-                    <img src="asset/image/icon/my-skills-backend.svg" class="icon">
-                </div>
+                    <div class="icon-decoration">
+                        <img src="asset/image/icon/my-skills-backend.svg" class="icon">
+                    </div>
 
-                <div class="icon-decoration">
-                    <img src="asset/image/icon/my-skills-ferramentas.svg" class="icon">
+                    <div class="icon-decoration">
+                        <img src="asset/image/icon/my-skills-ferramentas.svg" class="icon">
+                    </div>
                 </div>
-            </div>
-            <div class="container-my-skills">
-                <div>
-                    <h6 class="style-my-skills">Front-End</h6>
-                    <p class="text-one-skills"></p>
-                    <p class="text-one-skills">Angular</p>
-                    <p class="text-one-skills">TypeScript</p>
-                    <p class="text-one-skills">JavaScript</p>
-                    <p class="text-one-skills">React.JS</p>
+                <div class="container-my-skills">
+                    <div>
+                        <h6 class="style-my-skills">Front-End</h6>
+                        
+                    </div>
+                    <div>
+                        <h6 class="style-my-skills">Backend</h6>
+                        
+                    </div>
+                    <div>
+                        <h6 class="style-my-skills">Ferramentas</h6>
+                        
+                    </div>
                 </div>
-                <div>
-                    <h6 class="style-my-skills">Backend</h6>
-                    <p class="text-one-skills"></p>
-                    <p class="text-one-skills">Spring-Boot</p>
-                    <p class="text-one-skills">Node.JS</p>
-                    <p class="text-one-skills">MySQL/MariaDB</p>
-                </div>
-                <div>
-                    <h6 class="style-my-skills">Ferramentas</h6>
-                    <p class="text-one-skills"></p>
-                    <p class="text-one-skills">Postman</p>
-                    <p class="text-one-skills">Figma</p>
-                    <p class="text-one-skills">GitLab</p>
-                    <p class="text-one-skills">(CI/CD)</p>
-                    <p class="text-one-skills">Metodologia Scrum</p>
+                <div class="container-my-skills">
+                    <div>
+                        <p class="text-one-skills"></p>
+                        <p class="text-one-skills">TypeScript</p>
+                        <p class="text-one-skills">JavaScript</p>
+                        <p class="text-one-skills">React.JS</p>
+                        <p class="text-one-skills">Angular</p>
+                    </div>
+                    <div>
+                        <p class="text-one-skills"></p>
+                        <p class="text-one-skills">Spring-Boot</p>
+                        <p class="text-one-skills">Node.JS</p>
+                        <p class="text-one-skills">MySQL</p>
+                    </div>
+                    <div>
+                        <p class="text-one-skills"></p>
+                        <p class="text-one-skills">Metodologia Scrum</p>
+                        <p class="text-one-skills">Postman</p>
+                        <p class="text-one-skills">(CI/CD)</p>
+                        <p class="text-one-skills">GitLab</p>
+                        <p class="text-one-skills">Figma</p>
+                    </div>
                 </div>
             </div>
         </section>
         <!--Sessão de Projetos-->
-        <section id="my-projects">
-            <div>
-                <img src="asset/image/icon/border-projects.svg" alt="borda-ondular">
-            </div>
-            <div class="container-my-projects-inter">
-                <div class="container-projects">
-                    <div class="cards-projects">
-                        <div class="">
-                            <h2 style="font-weight: bold;">
-                                Adivinhe o Número
-                            </h2>
-                            <p> 
-                                O projeto consiste em um jogo interativo chamado <span class="text-color">"Guess the Number" (Adivinhe o Número)</span>, 
-                                onde os jogadores são desafiados a acertar o número secreto gerado aleatoriamente entre <span class="text-color">0 e 10</span>.
-                            </p>
-                            <div class="container-button">
-                                <a href="https://gregarious-peony-4676f0.netlify.app/" class="button-repository"> <!---->
-                                <img src="asset/image/icon/vetor-to_view.svg" alt="" class="icon" style="gap: 50px;">Visualizar</a></button>
+        <section id="my-projects" class="section">
+            <img src="asset/image/icon/border-projects.svg" alt="borda-ondular">
+            <div style="background-color: #cedada;">
+                <div class="box">
+                    <div class="container-my-projects-inter">
+                        <div class="container-projects">
+                            <div class="cards-projects">
+                                <div class="">
+                                    <h2 style="font-weight: bold;">
+                                        Adivinhe o Número
+                                    </h2>
+                                    <p> 
+                                        O projeto consiste em um jogo interativo chamado <span class="text-color">"Guess the Number" (Adivinhe o Número)</span>, 
+                                        onde os jogadores são desafiados a acertar o número secreto gerado aleatoriamente entre <span class="text-color">0 e 10</span>.
+                                    </p>
+                                    <div class="container-button">
+                                        <a href="https://gregarious-peony-4676f0.netlify.app/" class="button-repository"> <!---->
+                                        <img src="asset/image/icon/vetor-to_view.svg" alt="" class="icon" style="gap: 50px;">Visualizar</a></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -153,28 +167,30 @@
         </section>
 
         <!--Sessão de Contatos-->
-        <section id="contact">
-            <div class="container-about">
-                <h2>Contatos</h2>
-            </div>
-            <!--Formulário para Contato POST E-mail-->
-            <div class="container-form">
-                <h2>Formulário de Contato</h2>
-                <form action="#" method="POST">
-                  <div class="form-group">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" rows="5"></textarea>
-                  </div>
-                  <button type="submit" class="button-repository">Enviar</button>
-                </form>
+        <section id="contact" class="section">
+            <div class="box">
+                <div class="container-about">
+                    <h2>Contatos</h2>
+                </div>
+                <!--Formulário para Contato POST E-mail-->
+                <div class="container-form">
+                    <h2>Formulário de Contato</h2>
+                    <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="button-repository">Enviar</button>
+                    </form>
+                </div>
             </div>
         </section>
 
