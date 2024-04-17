@@ -96,12 +96,9 @@ header li a:hover{
     
 }
 .container-my-skills{
-    
     max-width: 800px;
-    
     text-align: center;
     margin: 0 auto;
-   
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -121,6 +118,56 @@ header li a:hover{
     font-size: 2.75rem;
     color: black;
     margin-bottom: 40px;
+}
+.container-form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #898952;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.container-form h2{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size: 2.75rem;
+    color: #898952;
+    margin-bottom: 40px;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.container-footer{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container-footer h5{
+    color: #898952;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+label {
+    color: #898952;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #898952;
+    border-radius: 3px;
+}
+textarea{
+    resize: vertical;
 }
 
 .home{
@@ -309,11 +356,9 @@ p {
 }
 .contact-icon{
     flex-wrap: wrap;
-    margin-top: 20px;
-    align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom: 150px;
+    
 }
 .contact-icon > div {
     margin: 0 15px 30px;
@@ -339,9 +384,8 @@ p {
     padding-bottom: 1rem;
 }
 .icon-contact{
-    width: 100px;
-    height: 50px;
-   
+    width: 50px;
+    height: 30px;
     transition: transform 0.3s ease;
 }
 .icon-contact:hover{
@@ -365,4 +409,17 @@ p {
     .contact-icon > div{
         flex-basis: calc(50% - 30px);
     }
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
+.copy a{
+    text-decoration: none;
+    color: #898952;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.footer{
+    background-color: #202A25;
 }
