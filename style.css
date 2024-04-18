@@ -455,3 +455,14 @@ p {
     }
        
 }
+@media (max-width:418px){
+    .icon{
+        height: 30px;
+    }
+    .container-my-skills h6 {
+        font-size: 12px;
+    }
+    .container-my-skills p {
+        font-size: 12px;
+    }
+}

@@ -7,6 +7,9 @@
     <title>Portfólio Rafael Castilho</title>
     <!-- Link para o arquivo CSS-->
     <link rel="stylesheet" href="./style.css">
+    <script src="/script/index.js"></script>
+    
+
 </head>
 
 <body>
@@ -101,11 +104,11 @@
                 </div>
                 <div class="container-my-skills">
                     <div>
-                        <h6 class="style-my-skills">Front-End</h6>
+                        <h6 class="style-my-skills">FrontEnd</h6>
                         
                     </div>
                     <div>
-                        <h6 class="style-my-skills">Backend</h6>
+                        <h6 class="style-my-skills">BackEnd</h6>
                         
                     </div>
                     <div>
@@ -175,7 +178,7 @@
                 <!--Formulário para Contato POST E-mail-->
                 <div class="container-form">
                     <h2>Formulário de Contato</h2>
-                    <form action="#" method="POST">
+                    <form>
                     <div class="form-group">
                         <label for="nome">Nome:</label>
                         <input type="text" id="nome" name="nome" required>
@@ -188,10 +191,11 @@
                         <label for="mensagem">Mensagem:</label>
                         <textarea id="mensagem" name="mensagem" rows="5"></textarea>
                     </div>
-                    <button type="submit" class="button-repository">Enviar</button>
+                    <button onclick="sendEmail()" type="button" class="button-repository">Enviar</button>
                     </form>
                 </div>
             </div>
+
         </section>
 
         <!--Footer-->
