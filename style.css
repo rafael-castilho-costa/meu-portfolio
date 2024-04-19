@@ -1,18 +1,11 @@
+/*Regra de alinhamento para todos os elementos*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#contact{
-    padding: 50px 0;
-}
 
-.container-layout{
- 
- width: 100%;
- height: 100%;
- display: block;
-}
+/*Configurações de caixa pra toda a pagina*/
 .section{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -22,14 +15,12 @@
     margin: 0 auto;
 }
 
-
-
+/*Configurações de estilo e comportamentos do Header e Menu*/
 header{
     background-color: #202A25;
     padding: 20px 0;
     border-bottom: 7px solid #898952;
 }
-
 header p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
@@ -37,7 +28,6 @@ header p{
     margin-left: 20px;
     
 }
-
 .box ul{
     width: 100%;
     gap: 20px;
@@ -48,7 +38,6 @@ header p{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-
 .box ul a{
     
     text-decoration: none;
@@ -59,12 +48,11 @@ header p{
     cursor: pointer;
     transition: color 0.3s ease;
 }
-
 .box ul a:hover{
     color: #898952;
 }
 
-/*ESTILIZAÇÃO Section-1 - Home*/
+/*Configurações de Caixas para segurar poisção de todos os conteudos*/
 .container{
     display: flex;
     justify-content: center;
@@ -121,7 +109,6 @@ header p{
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-
 .container-projects{
     text-align: center;
     max-width: 900px;
@@ -178,6 +165,8 @@ header p{
     display: flex;
     margin-bottom: 20px;
 }
+
+/*Configurações de estilo Formulário de Contato*/
 label {
     color: #898952;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -196,6 +185,7 @@ textarea{
     resize: vertical;
 }
 
+/*Configurações de estilo tags e pagina principal*/
 .home{
 
  display: flex;
@@ -212,7 +202,6 @@ textarea{
    
 }
    
-
 .home h2 {
     display: flex;
     justify-content: center;
@@ -226,7 +215,6 @@ textarea{
 .home h2.title{
     font-size: clamp(16px, 5vw,3.75rem);
 }
-
 p {
     text-align: justify;
     font-size: 1.25rem;
@@ -236,12 +224,13 @@ p {
     margin-bottom: 1.5rem;
 }
 
-/*Cor de estilização SPAN*/
+/*Cor de estilização do Span destacando as palavras no Header, Formação, Sobre e Projetos*/
 .text-color{
     color: #898952;
     font-weight: bold;
 }
 
+/*Configurações de estilo e efeitos dos Botões de toda a pagina*/
 .button{
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
@@ -349,6 +338,7 @@ p {
     
 }
 
+/*Configurações de estilo e ajuste da foto utilizada na pagina Formação*/
 .image{
     max-width: 100%;
     height: auto;
@@ -357,14 +347,18 @@ p {
     border-radius: 50%;
    
 }
+
+/*Configurações de estilo texto da pagina de Formação*/
 .text{
-    width: 60%; 
-   
+    width: 60%;   
 }
 
+/*Configurações de estilo icones svg de todas as paginas*/
 .icon{
     height: 50px;
 }
+
+/*Configurações de estilo página de Habilidades*/
 .style-my-skills{
     padding-bottom: 1rem;
     border-bottom: 2px solid #898952;
@@ -384,6 +378,8 @@ p {
     gap: 68px;
     align-items: center;
 }
+
+/*Configurações de estilo página de Contato*/
 .contact-icon{
     flex-wrap: wrap;
     justify-content: center;
@@ -413,6 +409,8 @@ p {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+/*Configurações de estilo e efeito de comportamento icones da pagina de Contatos*/
 .icon-contact{
     width: 50px;
     height: 30px;
@@ -421,20 +419,8 @@ p {
 .icon-contact:hover{
     transform: scale(1.2);
 }
-.style-footer{
-    display: flex;
-    justify-content: center;
-    background-color: #202A25;
-}
-.style-footer a {
-    color: #898952;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-bottom: 1.5rem;
-    text-decoration: none;
-}
 
+/*Configurações de estilo copyright fim da página*/
 .copy{
     display: flex;
     justify-content: center;
@@ -445,10 +431,14 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
 }
+
+/*Configurações de estilo do Footer*/
 .footer{
     background-color: #202A25;
 }
 
+
+/*Configurações de responsividade em telas mobile*/
 @media (max-width:895px) {
     .text{
      width: 85%;
